@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/char_driver/char_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/char_driver/char_driver.ko /home/ubuntu/char_driver/char_driver.o /home/ubuntu/char_driver/char_driver.mod.o
